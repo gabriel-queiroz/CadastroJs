@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+
+    <header class="container">
+
+        <h1 id="titulo"> Cadastro de Pessoas</h1>
+
+    </header>
+
+    <main class="container">
+
+
+        <form id="formulario"  action="#" method="get">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="digite seu Nome"> <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="digite seu Email"> <br> <br>
+
+
+            <label for="qtdFilhos">Selecione quantidade de filhos:</label>
+            <select id="qtdFilhos">
+
+                <option value="1">1 filho</option>
+                <option value="2">2 filhos</option>
+                <option value="3">3 ou mais Filhos</option> <br> <br>
+            </select>   <br> <br>
+
+            <label> Casado ? </label>
+            <input type="radio" name="estadoCivil" value="Casado">Casado
+            <input type="radio" name="estadoCivil" value="Solteiro" />Solteiro <br><br>
+
+            <label>Documentos</label> <br> <br>
+
+            <input type="checkbox" name="cpf" value="Cpf"> CPF
+            <input type="checkbox" name="RG" value="rg"> RG
+            <input type="checkbox" name="titulo" value="titulo"> TITULO
+            <input type="checkbox" name="Estudante" value="estudante"> estudante <br><br>
+
+            <button id="btn-enviar">Enviar</button>
+
+        </form>
+
+    </main>
+
+        <section class="sessao">
+
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Filhos</th>
+                        <th>Estado Civil</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="pessoas">
+
+                    <tr>
+                        <td>Gabriel</td>
+                        <td>gabriel@gamil.com</td>
+                        <td>4</td>
+                        <td> Casado</td>
+
+                    </tr>
+
+
+                </tbody>
+
+
+
+            </table>
+
+
+
+        </section>
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

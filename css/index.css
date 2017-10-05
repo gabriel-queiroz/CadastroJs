@@ -1,0 +1,150 @@
+body{
+
+    font-family: sans-serif;
+
+}
+
+.container{
+
+    margin: 30px auto;
+    width: 700px;
+
+    border: 3px solid #0c8cd3;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+
+}
+
+.sessao{
+    margin: 30px auto;
+    width: 745px;
+    border-radius: 4px;
+
+
+}
+
+h1{
+    color: #0c8cd3;
+    font-family: sans-serif;
+
+}
+
+.container form{
+
+
+
+    text-align: left;
+    width: 400px;
+    margin:auto;
+    padding: 20px;
+}
+
+.container form input[type="text"]{
+
+    border: 2px solid #0c8cd3;
+    border-radius: 3px;
+    width:70%;
+    height: 30px;
+    margin:0;
+    padding-left: 14px;
+
+}
+.container form input[type="email"]{
+
+    border: 2px solid  #0c8cd3;
+    border-radius: 3px;
+    width:70%;
+    height: 30px;
+    margin-left: 4px;
+    padding-right: 14px;
+}
+
+.container form select{
+
+    margin-top: 5px;
+    background-color: #0c8cd3;
+    color: #ffffff;
+
+    border: 2px solid #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.container form select:focus{
+
+   outline: none;
+    border-radius: 10px;
+}
+
+
+input[type="text"]:focus{
+
+
+    outline: none;
+    border-color: #0c8cd3;
+    box-shadow: 0 0 5px #0c8cd3, 2px 2px 2px rgba(0,0,0,0.25) inset;
+
+}
+
+#btn-enviar{
+
+    margin: 10px 0px;
+    padding: 7px 20px;
+    border: 1px solid #0c8cd3;
+    border-radius: 4px;
+    background-color: #0c8cd3;
+    color: #ffffff;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+#btn-enviar:hover{
+
+    transition: 1s;
+    background-color: white;
+    border-color: #0c8cd3;
+    color:#0c8cd3;
+
+}
+
+input::placeholder{
+
+    padding: 6px;
+    font-weight: 200;
+    font-size: 14px;
+    color: #0c8cd3;
+}
+
+#tabela{
+
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+
+#tabela td,th{
+
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+#tabela th {
+
+    font-weight: bold;
+    background-color: #0c8cd3;
+    color: #fff;
+    padding: 20px;
+
+}
+
+
+
+label{
+
+    color: #0c8cd3;
+
+}
