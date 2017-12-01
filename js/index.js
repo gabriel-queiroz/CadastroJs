@@ -2,6 +2,9 @@
 
 var botao = document.querySelector("#btn-enviar");
 
+
+
+
 console.log('começou');
 
 botao.addEventListener("click", function (event) {
